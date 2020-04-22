@@ -1,0 +1,279 @@
+body {
+
+    margin: 1px;
+    background-color: #4CAF50;
+    font-family: 'Baloo Bhaina 2', cursive;;
+    min-width: fit-content;
+}
+
+
+/*Nav*/
+
+.navbar{
+        display: flex;
+        align-content: center;
+        vertical-align: middle;
+        height: 50px;
+        background: transparent;
+        background-image: none;
+        padding: 10px;
+        background-color:#4CAF50;
+        opacity: 0.9;
+
+
+}
+
+.main-menu{
+        width: 250px;
+        background:transparent;
+        background-image:none;
+        display: flex;
+        position: relative;
+        top: 50px;
+}
+
+.collapse{
+        /*position: relative;
+        top: 55px;*/
+        background:transparent;
+        background-image:none;
+        width: 80%;
+}
+
+.show{
+       /* position: relative;
+        top: 55px;*/
+        background:transparent;
+        background-image:none;
+        width: 80%;
+
+}
+
+.navbar-toggler{
+        display: flex;
+        align-items: center;
+        color: white;
+        border: 1px solid white;
+
+}
+
+
+.navbar-toggler-icon:after{
+        content: "\2261"; /* web unicode*/
+        font-size: 180%;
+        vertical-align: middle;
+    }
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 5px;
+
+
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5px;
+    margin: auto 0;
+
+}
+
+li:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    transform: translate(10px);
+    color: white;
+}
+
+a{
+
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    transition: all 3s;
+    transform: scale(2);
+    color: black;
+}
+
+/*COVER*/
+
+
+.container{
+    /*background-image: url("./img/coverimg.jpg");*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.container h1{
+    color: white;
+    font-size: 200%;
+    text-shadow: 20px 20px 20px black;
+    text-align: center;
+
+}
+
+.container h1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.responsive-img-cover {
+    background-image: url("wallpaper.jpg");
+  background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* section */
+
+section{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.zone{
+    display: flex;
+   flex-direction: column;
+
+   align-items: center;
+   justify-content: center;
+    padding: 30px;
+    width: 100%;
+}
+
+.textsection{
+    align-content: center;
+    margin-left: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img{
+
+  width: 100%;
+  height: 100%;
+}
+
+.ordernow{
+
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+.ordernow:hover{
+    transition: 1s;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+
+p {
+    display: flex;
+    padding: 50px;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+      word-wrap: break-word;
+}
+
+.titlesection{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 150%;
+    padding-top: 0px;
+}
+
+
+/*FOOTER*/
+
+hr {
+    display: block;
+    clear: both;
+    height: 50px;
+    padding: 0;
+    border: 0;
+    margin: auto 0;
+    font-family: arial;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+}
+hr:after {
+    content: "\273D \273D \273D"; /* web unicode*/
+    height: 100px;          
+    letter-spacing: 1em;
+    color: #aaa;
+}
+
+footer{
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: auto;
+    width: auto;
+    color: white;
+}
+
+.foot{
+    text-align: center;
+    padding: 30px;
+    width: auto;
+    font-size: 160%;
+
+}
+
+footer p{
+  display: flex;  
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+
+}
+
+/* SOCIAL MEDIA Menu*/
+
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+        width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.socialmedia h2{
+    font-size: 160%;
+}
+  
